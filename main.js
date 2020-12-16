@@ -1,6 +1,7 @@
 window.onload = function() {
     console.log("welcome to the site.")
 
+    //draw the squares!
     const c = document.getElementById("mainCanvas");
     let ctx = c.getContext("2d");
 
@@ -16,4 +17,17 @@ window.onload = function() {
     document.getElementById("download_resume").onclick = () => {
         window.location = "https://arshiyasolei.github.io/personal_site/resume_arshia.pdf"
     }
+
+    //load interactive background
+    VANTA.NET({
+        el: "#interactive",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0xd0d14
+      })
 }
