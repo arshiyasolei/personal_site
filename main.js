@@ -2,7 +2,7 @@ window.onload = function() {
     console.log("welcome to the site.")
 
     const c = document.getElementById("mainCanvas");
-    var ctx = c.getContext("2d");
+    let ctx = c.getContext("2d");
 
     c.width  = window.innerWidth;
     c.height = window.innerHeight;
