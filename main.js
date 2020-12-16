@@ -14,6 +14,6 @@ window.onload = function() {
     ctx.fillRect(30, 30, 50, 50);
 
     document.getElementById("download_resume").onclick = () => {
-        window.location = "/resume_arshia.pdf"
+        window.location = "/personal_site/resume_arshia.pdf"
     }
 }
