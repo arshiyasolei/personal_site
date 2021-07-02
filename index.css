@@ -1,99 +1,92 @@
 h1 {
     font-family: "Lucida Bright", Georgia, serif;
-    font-size: 6vw;
+    font-size: 500%;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 23px;
-    color: rgb(225, 227, 198);
+    line-height: 0%;
+    color: rgb(245, 245, 245);
 }
 
 h3 {
     font-family: "Lucida Bright", Georgia, serif;
-    font-size: 14px;
     font-style: normal;
+    font-size: 200%;
     font-variant: normal;
     font-weight: 700;
-    line-height: 15.4px;
 }
 
 button {
     font-family: "Lucida Bright", Georgia, serif;
-    font-size: 20px;
     font-style: normal;
+    font-size: 100%;
     font-variant: normal;
     font-weight: 700;
-    line-height: 23px;
-    color: rgb(225, 227, 198);
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    border-color: antiquewhite;
+    border-color: rgb(244, 244, 244);
     border-style: solid;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
     transition-duration: 0.4s;
 }
+
 button:hover {
-    background-color: #429345; /* Green */
-    color: rgb(237, 225, 225);
-  }
+    background-color: #ac2626;
+    /* Green */
+    color: rgb(255, 255, 255);
+}
 
 p {
+    font-size: 140%;
     font-family: "Lucida Bright", Georgia, serif;
-    font-size: 3vw;
     font-style: normal;
     font-variant: normal;
     font-weight: 100;
-    line-height: 23px;
-    color: rgb(225, 227, 198);
+    color: rgb(255, 255, 255);
+
 }
 
-blockquote {
-    font-family: "Lucida Bright", Georgia, serif;
-    font-size: 17.5px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 25px;
-}
 
-pre {
-    font-family: "Lucida Bright", Georgia, serif;
-    font-size: 13px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 18.5714px;
-}
 
-canvas {
-    position: fixed;
-    z-index: -1;
-}
-#interactive {
-    position: fixed;
-    
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-}
+html,
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(13, 22, 28);
-    margin: 0 !important;
-    padding: 0 !important;
+    display: flex;
+
 }
-html {
-    height: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
-}
+
+.elm {}
+
 .name {
-
-
     text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#cornerSquare {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+
+#interactive {
+    position: fixed;
+    top: 0;
+    z-index: -1;
 }
